@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="3dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+   >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="328dp"
+        android:layout_height="108dp"
+        app:cardBackgroundColor="@color/card_Color"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/documentimage"
+            android:background="@drawable/documetsimage"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="12dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/TAGMAIN"
+            android:layout_width="123dp"
+            android:layout_height="44dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="18.5dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginBottom="45dp">
+        </TextView>
+        <TextView
+            android:id="@+id/DATEd"
+            android:layout_width="59dp"
+            android:layout_height="19dp"
+            android:textColor="@color/PrimeryText"
+            android:layout_marginTop="70.5dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginBottom="18.5dp">
+        </TextView>
+        <TextView
+            android:id="@+id/Timed"
+            android:layout_width="27dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="70.5dp"
+            android:textColor="@color/PrimeryText"
+            android:layout_marginLeft="179dp"
+            android:layout_marginBottom="18.5dp">
+        </TextView>
+        <ImageButton
+            android:id="@+id/shared"
+            android:layout_width="20.01dp"
+            android:layout_height="20.03dp"
+            android:layout_marginTop="44.97dp"
+            android:layout_marginLeft="253.99dp"
+            android:layout_marginBottom="43dp"
+            android:background="@drawable/icon_share_alt__component_additional_icons">
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/optiond"
+            android:layout_width="20.01dp"
+            android:layout_height="20.03dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginLeft="302dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/icon_ellipsis_v__component_additional_icons">
+        </ImageButton>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
